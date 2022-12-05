@@ -1,0 +1,73 @@
+County,County code,Date,Fuel type,Region,Count,County Latitude,County Longitude,Region Longitude,Region Latitude,Region+,County population,Per1000
+Norrtälje,188,2013-01-01,Diesel,Stockholms län,901,59.8612,18.70573,59.5,18.0,Larger cities,56845,15.850118743952855
+Norrtälje,188,2013-01-01,Electric hybrids,Stockholms län,25,59.8612,18.70573,59.5,18.0,Larger cities,56845,0.43979241797871405
+Norrtälje,188,2013-01-01,Electricty,Stockholms län,0,59.8612,18.70573,59.5,18.0,Larger cities,56845,0.0
+Norrtälje,188,2013-01-01,Ethanol,Stockholms län,14,59.8612,18.70573,59.5,18.0,Larger cities,56845,0.24628375406807987
+Norrtälje,188,2013-01-01,Gas,Stockholms län,713,59.8612,18.70573,59.5,18.0,Larger cities,56845,12.542879760752925
+Norrtälje,188,2013-01-01,NG,Stockholms län,16,59.8612,18.70573,59.5,18.0,Larger cities,56845,0.28146714750637697
+Norrtälje,188,2013-01-01,Plug-in hybrids,Stockholms län,1,59.8612,18.70573,59.5,18.0,Larger cities,56845,0.01759169671914856
+Norrtälje,188,2013-01-01,All,Stockholms län,1670,59.8612,18.70573,59.5,18.0,Larger cities,56845,29.3781335209781
+Norrtälje,188,2014-01-01,Diesel,Stockholms län,975,59.8612,18.70573,59.5,18.0,Larger cities,57568,16.93649249583102
+Norrtälje,188,2014-01-01,Electric hybrids,Stockholms län,27,59.8612,18.70573,59.5,18.0,Larger cities,57568,0.4690105614230128
+Norrtälje,188,2014-01-01,Electricty,Stockholms län,4,59.8612,18.70573,59.5,18.0,Larger cities,57568,0.06948304613674264
+Norrtälje,188,2014-01-01,Ethanol,Stockholms län,9,59.8612,18.70573,59.5,18.0,Larger cities,57568,0.15633685380767093
+Norrtälje,188,2014-01-01,Gas,Stockholms län,920,59.8612,18.70573,59.5,18.0,Larger cities,57568,15.981100611450806
+Norrtälje,188,2014-01-01,NG,Stockholms län,19,59.8612,18.70573,59.5,18.0,Larger cities,57568,0.3300444691495275
+Norrtälje,188,2014-01-01,Plug-in hybrids,Stockholms län,5,59.8612,18.70573,59.5,18.0,Larger cities,57568,0.08685380767092829
+Norrtälje,188,2014-01-01,All,Stockholms län,1959,59.8612,18.70573,59.5,18.0,Larger cities,57568,34.0293218454697
+Norrtälje,188,2015-01-01,Diesel,Stockholms län,1154,59.8612,18.70573,59.5,18.0,Larger cities,58669,19.66967222894544
+Norrtälje,188,2015-01-01,Electric hybrids,Stockholms län,31,59.8612,18.70573,59.5,18.0,Larger cities,58669,0.5283880754742709
+Norrtälje,188,2015-01-01,Electricty,Stockholms län,2,59.8612,18.70573,59.5,18.0,Larger cities,58669,0.03408955325640457
+Norrtälje,188,2015-01-01,Ethanol,Stockholms län,0,59.8612,18.70573,59.5,18.0,Larger cities,58669,0.0
+Norrtälje,188,2015-01-01,Gas,Stockholms län,1039,59.8612,18.70573,59.5,18.0,Larger cities,58669,17.709522916702177
+Norrtälje,188,2015-01-01,NG,Stockholms län,6,59.8612,18.70573,59.5,18.0,Larger cities,58669,0.10226865976921372
+Norrtälje,188,2015-01-01,Plug-in hybrids,Stockholms län,7,59.8612,18.70573,59.5,18.0,Larger cities,58669,0.11931343639741601
+Norrtälje,188,2015-01-01,All,Stockholms län,2239,59.8612,18.70573,59.5,18.0,Larger cities,58669,38.16325487054492
+Norrtälje,188,2016-01-01,Diesel,Stockholms län,917,59.8612,18.70573,59.5,18.0,Larger cities,59420,15.432514304947828
+Norrtälje,188,2016-01-01,Electric hybrids,Stockholms län,58,59.8612,18.70573,59.5,18.0,Larger cities,59420,0.9761023224503534
+Norrtälje,188,2016-01-01,Electricty,Stockholms län,9,59.8612,18.70573,59.5,18.0,Larger cities,59420,0.15146415348367553
+Norrtälje,188,2016-01-01,Ethanol,Stockholms län,1,59.8612,18.70573,59.5,18.0,Larger cities,59420,0.01682935038707506
+Norrtälje,188,2016-01-01,Gas,Stockholms län,1065,59.8612,18.70573,59.5,18.0,Larger cities,59420,17.923258162234937
+Norrtälje,188,2016-01-01,NG,Stockholms län,3,59.8612,18.70573,59.5,18.0,Larger cities,59420,0.05048805116122518
+Norrtälje,188,2016-01-01,Plug-in hybrids,Stockholms län,35,59.8612,18.70573,59.5,18.0,Larger cities,59420,0.589027263547627
+Norrtälje,188,2016-01-01,All,Stockholms län,2088,59.8612,18.70573,59.5,18.0,Larger cities,59420,35.13968360821272
+Norrtälje,188,2017-01-01,Diesel,Stockholms län,972,59.8612,18.70573,59.5,18.0,Larger cities,60808,15.984738850151295
+Norrtälje,188,2017-01-01,Electric hybrids,Stockholms län,100,59.8612,18.70573,59.5,18.0,Larger cities,60808,1.6445204578344954
+Norrtälje,188,2017-01-01,Electricty,Stockholms län,13,59.8612,18.70573,59.5,18.0,Larger cities,60808,0.2137876595184844
+Norrtälje,188,2017-01-01,Ethanol,Stockholms län,1,59.8612,18.70573,59.5,18.0,Larger cities,60808,0.016445204578344953
+Norrtälje,188,2017-01-01,Gas,Stockholms län,1063,59.8612,18.70573,59.5,18.0,Larger cities,60808,17.48125246678069
+Norrtälje,188,2017-01-01,NG,Stockholms län,23,59.8612,18.70573,59.5,18.0,Larger cities,60808,0.37823970530193396
+Norrtälje,188,2017-01-01,Plug-in hybrids,Stockholms län,38,59.8612,18.70573,59.5,18.0,Larger cities,60808,0.6249177739771082
+Norrtälje,188,2017-01-01,All,Stockholms län,2210,59.8612,18.70573,59.5,18.0,Larger cities,60808,36.34390211814235
+Norrtälje,188,2018-01-01,Diesel,Stockholms län,620,59.8612,18.70573,59.5,18.0,Larger cities,61769,10.037397399990287
+Norrtälje,188,2018-01-01,Electric hybrids,Stockholms län,176,59.8612,18.70573,59.5,18.0,Larger cities,61769,2.8493257135456296
+Norrtälje,188,2018-01-01,Electricty,Stockholms län,21,59.8612,18.70573,59.5,18.0,Larger cities,61769,0.3399763635480581
+Norrtälje,188,2018-01-01,Ethanol,Stockholms län,1,59.8612,18.70573,59.5,18.0,Larger cities,61769,0.016189350645145623
+Norrtälje,188,2018-01-01,Gas,Stockholms län,1123,59.8612,18.70573,59.5,18.0,Larger cities,61769,18.180640774498535
+Norrtälje,188,2018-01-01,NG,Stockholms län,7,59.8612,18.70573,59.5,18.0,Larger cities,61769,0.11332545451601936
+Norrtälje,188,2018-01-01,Plug-in hybrids,Stockholms län,43,59.8612,18.70573,59.5,18.0,Larger cities,61769,0.6961420777412618
+Norrtälje,188,2018-01-01,All,Stockholms län,1991,59.8612,18.70573,59.5,18.0,Larger cities,61769,32.23299713448493
+Norrtälje,188,2019-01-01,Diesel,Stockholms län,513,59.8612,18.70573,59.5,18.0,Larger cities,62622,8.192009198045415
+Norrtälje,188,2019-01-01,Electric hybrids,Stockholms län,258,59.8612,18.70573,59.5,18.0,Larger cities,62622,4.119957842291846
+Norrtälje,188,2019-01-01,Electricty,Stockholms län,56,59.8612,18.70573,59.5,18.0,Larger cities,62622,0.8942544153811759
+Norrtälje,188,2019-01-01,Ethanol,Stockholms län,6,59.8612,18.70573,59.5,18.0,Larger cities,62622,0.09581297307655456
+Norrtälje,188,2019-01-01,Gas,Stockholms län,988,59.8612,18.70573,59.5,18.0,Larger cities,62622,15.777202899939319
+Norrtälje,188,2019-01-01,NG,Stockholms län,3,59.8612,18.70573,59.5,18.0,Larger cities,62622,0.04790648653827728
+Norrtälje,188,2019-01-01,Plug-in hybrids,Stockholms län,78,59.8612,18.70573,59.5,18.0,Larger cities,62622,1.2455686499952094
+Norrtälje,188,2019-01-01,All,Stockholms län,1902,59.8612,18.70573,59.5,18.0,Larger cities,62622,30.372712465267796
+Norrtälje,188,2020-01-01,Diesel,Stockholms län,364,59.8612,18.70573,59.5,18.0,Larger cities,63673,5.716708809071349
+Norrtälje,188,2020-01-01,Electric hybrids,Stockholms län,197,59.8612,18.70573,59.5,18.0,Larger cities,63673,3.093933064250153
+Norrtälje,188,2020-01-01,Electricty,Stockholms län,128,59.8612,18.70573,59.5,18.0,Larger cities,63673,2.010271229563551
+Norrtälje,188,2020-01-01,Ethanol,Stockholms län,1,59.8612,18.70573,59.5,18.0,Larger cities,63673,0.015705243980965244
+Norrtälje,188,2020-01-01,Gas,Stockholms län,692,59.8612,18.70573,59.5,18.0,Larger cities,63673,10.86802883482795
+Norrtälje,188,2020-01-01,NG,Stockholms län,1,59.8612,18.70573,59.5,18.0,Larger cities,63673,0.015705243980965244
+Norrtälje,188,2020-01-01,Plug-in hybrids,Stockholms län,194,59.8612,18.70573,59.5,18.0,Larger cities,63673,3.0468173323072576
+Norrtälje,188,2020-01-01,All,Stockholms län,1577,59.8612,18.70573,59.5,18.0,Larger cities,63673,24.76716975798219
+Norrtälje,188,2021-01-01,Diesel,Stockholms län,393,59.8612,18.70573,59.5,18.0,Larger cities,64762,6.068373428862604
+Norrtälje,188,2021-01-01,Electric hybrids,Stockholms län,216,59.8612,18.70573,59.5,18.0,Larger cities,64762,3.335289212809981
+Norrtälje,188,2021-01-01,Electricty,Stockholms län,265,59.8612,18.70573,59.5,18.0,Larger cities,64762,4.091905747197431
+Norrtälje,188,2021-01-01,Ethanol,Stockholms län,10,59.8612,18.70573,59.5,18.0,Larger cities,64762,0.15441153763009172
+Norrtälje,188,2021-01-01,Gas,Stockholms län,592,59.8612,18.70573,59.5,18.0,Larger cities,64762,9.14116302770143
+Norrtälje,188,2021-01-01,NG,Stockholms län,1,59.8612,18.70573,59.5,18.0,Larger cities,64762,0.015441153763009172
+Norrtälje,188,2021-01-01,Plug-in hybrids,Stockholms län,265,59.8612,18.70573,59.5,18.0,Larger cities,64762,4.091905747197431
+Norrtälje,188,2021-01-01,All,Stockholms län,1742,59.8612,18.70573,59.5,18.0,Larger cities,64762,26.898489855161976
