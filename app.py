@@ -1,10 +1,14 @@
-import streamlit as st
-import altair as alt
-from altair import datum
 import pandas as pd
 import numpy as np
-import folium
+import time
+import streamlit as st
 from streamlit_folium import st_folium # https://github.com/randyzwitch/streamlit-folium
+
+import altair as alt
+from altair import datum
+import folium
+from folium.features import DivIcon
+
 
 
 st.set_page_config(layout="wide")
@@ -147,15 +151,28 @@ with col1:
 
     sample_county, lq, uq = add_color(sample_county, col, colorscale)
     sample_county.sort_values(by=col, inplace=True)
+    center_map = pd.read_csv('./data/_temp_center_map.csv', header=None) # load last position of the map center so it's not reset
 
 
-
-    map = folium.Map(location=[sample_county['County Latitude'].quantile(0.8), 
-                            sample_county['County Longitude'].quantile(0.45)],
-                            zoom_start=5, 
+    map = folium.Map(location=[center_map.iloc[0,0], 
+                            center_map.iloc[0,1]],
+                            zoom_start=center_map.iloc[0,2], 
                             control_scale=True,
                             tiles="cartodbpositron")
                             # tiles="cartodbdark_matter")
+    
+
+    
+
+    text_position = [65.5, 3.7]
+    folium.map.Marker(
+        text_position,
+        icon=DivIcon(
+            icon_size=(150,36),
+            icon_anchor=(0,0),
+            html='<div style="font-size: 9pt"><b>Update the top right chart by selecting a county</b></div>',
+            )
+    ).add_to(map)
 
 
 
@@ -186,6 +203,11 @@ with col1:
 
     county_selected = None
     map_selection = st_folium(map, width=650, height=520)
+
+
+
+
+    # st.write(map_selection)
     st.write("""Inital car registration rates are especially high in the large city regions
     (Stockholm, Göteborg & Malmö), all located in the southern half of the country""")
     
@@ -193,7 +215,7 @@ with col1:
 
 with col2:
 
-    df_selected_county = pd.read_csv('./data/tempdata.csv')
+    df_selected_county = pd.read_csv('./data/_temp_county_data.csv')
     county_selected = df_selected_county.iloc[0]['County']
 
 
@@ -204,8 +226,13 @@ with col2:
             county_selected = sample_county[(sample_county['County Latitude'] == lat_selected) & (sample_county['County Longitude'] == lng_selected)].iloc[0]['County']
 
             df_selected_county = df_county[df_county['County']==county_selected]
-            df_selected_county .to_csv('./data/tempdata.csv', index=False)
-
+            df_selected_county.to_csv('./data/_temp_county_data.csv', index=False)
+            
+            center_map.iloc[0,0] = lat_selected
+            center_map.iloc[0,1] = lng_selected
+            zoom_level = map_selection["zoom"]
+            center_map.iloc[0,2] = zoom_level
+            center_map.to_csv('./data/_temp_center_map.csv', index=False, header=False)
 
     
     if actual_or_scaled == ytypes[0]:
