@@ -7,7 +7,10 @@ The data was collected from: www.trafa.se (car registrations), www.scb.se (popul
 ### Interacting with the app
 The main visualisation is the map showing the average number of car registrations in each county by color. This is **yearly data**.  Lighter blue -> fewer registrations, darker blue -> more registrations. In the left sidebar the user can choose a range of years (or a single year). A specific fuel type can be chosen or the default setting "All" can be kept. The map connects to the top right chart which shows registrations by fuel type for all years for one selected county. 
 
-The third chart (bottom right) uses a different data source with **monthly** data. However, it is filtered based on the user selected year range and it aggregates the monthly data differently based on how long the selected range is. All different fuel types have been binned into 3 categories: fossil, electrified and other.
+The third chart (bottom right) uses a different data source with **monthly** data but only on an aggregated monthly level. It is filtered based on the user selected year range and it aggregates the monthly data differently based on how long the selected range is. All different fuel types have been binned into 3 categories: fossil, electrified and other.
+
+### About the code & data
+Some of the original data has been reshaped using tableau and excel. The geographical (latitude & longitudes) data was cleaned in a separate jupyter notebook prior to joining it to the /data/county_registrations_yearly.csv file. The notebook is available in a separate folder (extra) The map is created using folium.
 
 
 ### to-do list
