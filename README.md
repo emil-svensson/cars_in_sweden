@@ -1,7 +1,7 @@
 # Inital car registrations in sweden
 This repo contains the python code for a [streamlit app](https://emil-svensson-cars-in-sweden-app-5h4066.streamlit.app) with dynamic visualizations. 
 The data was collected from: www.trafa.se (car registrations), www.scb.se (population numbers) & www.geonames.org (geographical data)
-(![image](https://github.com/emil-svensson/cars_in_sweden/blob/app_screenshot.png)
+(![image](https://github.com/emil-svensson/cars_in_sweden/blob/main/app_screenshot.png)
 
 
 ### Interacting with the app
